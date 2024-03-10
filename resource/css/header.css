@@ -1,0 +1,37 @@
+.menu {
+    position:fixed;
+    top: -17px;
+    left: -5px;
+    list-style-type: none;
+    font-family: "Arial";
+    font-weight: bold;
+    background-color: green;
+    height: 50px;
+    width: 100%;
+    border-bottom: 2px solid black;
+}
+.item {
+    float:left;
+    margin: 10px;
+    width: 100px;
+    color: rgb(255, 255, 255);
+}
+.right {
+    float: right;
+}
+.sous_menu {
+    list-style-type: none;
+    position: relative;
+    right: 35px;
+    color: black;
+    display: none;
+    background-color: grey;
+    text-align: center;
+    padding: 0px;
+}
+ .web:hover ul {
+    display: block;
+}
+.sous_menu li {
+    margin: 0px;
+}
