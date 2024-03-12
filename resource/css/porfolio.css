@@ -1,0 +1,65 @@
+a:hover {
+    color:red;
+}
+
+/* Header */
+.menu {
+    position:fixed;
+    top: -17px;
+    left: -5px;
+    list-style-type: none;
+    font-family: "Arial";
+    font-weight: bold;
+    background-color: green;
+    height: 50px;
+    width: 100%;
+    border-bottom: 2px solid black;
+}
+.item {
+    float:left;
+    margin: 10px;
+    width: 100px;
+    color: rgb(255, 255, 255);
+}
+.right {
+    float: right;
+}
+.sous_menu {
+    list-style-type: none;
+    position: relative;
+    right: 35px;
+    color: black;
+    display: none;
+    background-color: grey;
+    text-align: center;
+    padding: 0px;
+}
+ .web:hover ul {
+    display: block;
+}
+.sous_menu li {
+    margin: 0px;
+}
+
+/*home*/
+.projet {
+    position: relative;
+    background: rgba( 255, 255, 255, 0.2 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4.5px );
+    -webkit-backdrop-filter: blur( 4.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    overflow: hidden; /* Cache le débordement */
+}
+.cover_project{
+    /* position: absolute; */
+    width: 400px;
+    /* top: 50%; */
+    /* left: 50%;     */
+    /* transform: translate(-50%, -50%); Centre l'image */
+    /* max-width: 100%; Empêche l'image de déborder */
+}
+section {
+    margin: 10%;
+}
